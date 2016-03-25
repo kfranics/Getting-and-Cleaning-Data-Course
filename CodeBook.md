@@ -21,13 +21,13 @@
   
 Notes: 
 ======
-*The sensor acceleration signal has gravitational and body motion components
-*Variables from the time and frequency domain compose the features variables
-*The Features have been transformed into averages of the original dataset
-*Features are bounded within [-1,1].
-*Numbers are stored as type dbl()
-*The table contains a distinct set of subjects and activities by row
-*Features are displayed by columns
+The sensor acceleration signal has gravitational and body motion components.
+Variables from the time and frequency domain compose the features variables.
+The Features have been transformed into averages of the original dataset.
+Features are bounded within [-1,1].
+Numbers are stored as type dbl().
+The table contains a distinct set of subjects and activities by row.
+Features are displayed by columns.
 
 
 ###Naming conventions for activities and features
