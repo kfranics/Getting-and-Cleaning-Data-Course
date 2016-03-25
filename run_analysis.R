@@ -130,10 +130,10 @@ select(-activityid) %>%
 group_by(subjectid, activity) %>%
 summarise_each(funs(mean)) 
 
-write.table(xy_dataframe, "TidyDataAssignment.csv", row.names = FALSE, col.names = TRUE)  
+write.table(xy_dataframe, "TidyDataAssignment.txt", row.names = FALSE)  
 
 
 ###You may choose to read the file using the commented code below
-#TidyDataAssignment <- read.table("TidyDataAssignment.csv",header = TRUE, check.names=FALSE )
+#TidyDataAssignment <- read.table("TidyDataAssignment.txt",header = TRUE, check.names=FALSE )
 #View(TidyDataAssignment)
 
