@@ -7,9 +7,9 @@ This project has been an exercise in collecting, working with, and cleaning a da
 
 ###Project Components
 
-This README document is a guide describing the course assignment and project steps
+This README document is a guide describing the course assignment and project steps.  
 In the repository, you will find a tidy data set and the script used to perform the analysis
-A code book is included that describes the variables, data and transformations performed
+A code book is included that describes the variables, data and transformations performed.
 
 
 A full description of the source material is available at the site where the data was obtained: 
@@ -20,11 +20,11 @@ The data was downloaded from the following URL:
 
 ###Project Objectives
 
-   1. *Merge the training and the test sets to create one data set.     
-   2. *Extract only the measurements on the mean and standard deviation for each measurement. 
-   3. *Use descriptive activity names to name the activities in the data set
-   4. *Appropriately label the data set with descriptive variable names.    
-   5. *From the data set in step 4, create a second, independent tidy data set, 
+   1. Merge the training and the test sets to create one data set.     
+   2. Extract only the measurements on the mean and standard deviation for each measurement. 
+   3. Use descriptive activity names to name the activities in the data set
+   4. Appropriately label the data set with descriptive variable names.    
+   5. From the data set in step 4, create a second, independent tidy data set, 
        with the average of each variable, for each activity and each subject.
 
 ##Run the Analysis
@@ -53,13 +53,13 @@ To begin the process of assigning descriptive activity names,
 I worked with a subset of the features related to mean and standard deviation.
 You may want to reference the codebook to understand the naming convention used.
 The strngcalc function was written to piece together the descriptive names.
-The naming convention uses the following order:
-      *summary function of mean vs standard deviation
-      *domain of time vs frequency, including angular measurements
-      *body vs gravity 
-      *axis of the phone when listed
-      *sensor used for the reading (accelerometer vs gyroscope)
-      *magnitude when listed 
+The naming convention uses the following order.
+     1. *summary function of mean vs standard deviation
+     2. *domain of time vs frequency, including angular measurements
+     3. *body vs gravity 
+     4. *axis of the phone when listed
+     5. *sensor used for the reading (accelerometer vs gyroscope)
+     6. *magnitude when listed 
 
 #Step 4
 Having adjusted the variable names, I then assigned them as column names for the dataset.
