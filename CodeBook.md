@@ -13,11 +13,11 @@
 
 ###The transformed dataset includes average values 
 ###for the mean and standard deviation variables:
-  1.Triaxial acceleration from the accelerometer (total acceleration) 
+  1. Triaxial acceleration from the accelerometer (total acceleration) 
      and the estimated body acceleration.
-  2.Triaxial Angular velocity from the gyroscope.
-  3.86 variables with descriptive time and frequency domain variables.
-  4.An identifier of the subject who carried out the experiment.  
+  2. Triaxial Angular velocity from the gyroscope.
+  3. 86 variables with descriptive time and frequency domain variables.
+  4. An identifier of the subject who carried out the experiment.  
   
 Notes: 
 ======
