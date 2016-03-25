@@ -43,9 +43,9 @@ The features list was loaded, with new column names *'featureid'* and *'featured
 
 #Step 2
 For extracting only the measurements of mean and standard deviation,
-I searched the features file for any description of *'mean'* or *'std'*
-I have included the weighted mean variables, originally labeled as *'meanFreq'* 
-I created a feature index, as a method for subsetting the temporary table
+I searched the features file for any description of *'mean'* or *'std'*.
+I have included the weighted mean variables, originally labeled as *'meanFreq'*. 
+I created a feature index, as a method for subsetting the temporary table.
 In this step, the column count was reduced to 88 variables
 
 #Step 3
@@ -71,7 +71,7 @@ These labels were then incorporated into the dataset as a new column.
 To make a tidy data set, I selected all of the columns, except for the activityid.
 Grouping on the subjectid and activity description, I created a mean summary for each column. 
 The dataset was written to a file called 'TidyDataAssignment.csv'. 
-This file is available in the repository. It has 180 observations of 88 variables.
+It has 180 observations of 88 variables.
 For the tidy file, please note each observation has it's own row, with a column for each measured variable.
 
 For more detail on Tidy Data, the Hadley Wickham whitepaper is a great resource.
