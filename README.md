@@ -54,12 +54,13 @@ I worked with a subset of the features related to mean and standard deviation.
 You may want to reference the codebook to understand the naming convention used.
 The strngcalc function was written to piece together the descriptive names.
 The naming convention uses the following order.
-     1. *summary function of mean vs standard deviation
-     2. *domain of time vs frequency, including angular measurements
-     3. *body vs gravity 
-     4. *axis of the phone when listed
-     5. *sensor used for the reading (accelerometer vs gyroscope)
-     6. *magnitude when listed 
+
+     1. summary function of mean vs standard deviation
+     2. domain of time vs frequency, including angular measurements
+     3. body vs gravity 
+     4. axis of the phone when listed
+     5. sensor used for the reading (accelerometer vs gyroscope)
+     6. magnitude when listed 
 
 #Step 4
 Having adjusted the variable names, I then assigned them as column names for the dataset.
