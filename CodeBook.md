@@ -4,20 +4,20 @@
 
 
 ###The original dataset contained the following data points:
-  1.*Triaxial acceleration from the accelerometer (total acceleration) 
+  1.Triaxial acceleration from the accelerometer (total acceleration) 
      and the estimated body acceleration.
-  2.*Triaxial Angular velocity from the gyroscope.
-  3.*A 561-feature vector with time and frequency domain variables.
-  4.*Its activity label.
-  5.*An identifier of the subject who carried out the experiment. 
+  2.Triaxial Angular velocity from the gyroscope.
+  3.A 561-feature vector with time and frequency domain variables.
+  4.Its activity label.
+  5.An identifier of the subject who carried out the experiment. 
 
 ###The transformed dataset includes average values 
 ###for the mean and standard deviation variables:
-  1.*Triaxial acceleration from the accelerometer (total acceleration) 
+  1.Triaxial acceleration from the accelerometer (total acceleration) 
      and the estimated body acceleration.
-  2.*Triaxial Angular velocity from the gyroscope.
-  3.*86 variables with descriptive time and frequency domain variables.
-  4.*An identifier of the subject who carried out the experiment.  
+  2.Triaxial Angular velocity from the gyroscope.
+  3.86 variables with descriptive time and frequency domain variables.
+  4.An identifier of the subject who carried out the experiment.  
   
 Notes: 
 ======
@@ -33,20 +33,20 @@ Notes:
 ###Naming conventions for activities and features
 The activity descriptions have been changed from uppercase to lowercase
 All underscore symbols have been removed
-The revised naming of the feature variables use the following order:
-      *summary function of mean vs standard deviation
-      *domain of time vs frequency, including angular measurements
-      *body vs gravity 
-      *axis of the phone when listed
-      *sensor used for the reading (accelerometer vs gyroscope)
-      *magnitude when listed 
+The revised naming of the feature variables use the following order.
+      1. summary function of mean vs standard deviation.
+      2. domain of time vs frequency, including angular measurements.
+      3. body vs gravity. 
+      4. axis of the phone when listed.
+      5. sensor used for the reading (accelerometer vs gyroscope).
+      6. magnitude when listed. 
 
 ##The Variables
-      * **subjectid** - values of 1 through 30 for each volunteer 
+        **subjectid** - values of 1 through 30 for each volunteer 
 
 
-      * **activity** - six activities were measured on a smartphone (Samsung Galaxy S II)
-       		  *laying
+        **activity** - six activities were measured on a smartphone (Samsung Galaxy S II)
+            *laying
             *sitting
             *standing
             *walking 
